@@ -103,15 +103,24 @@ public class SimulationEngine {
     private void printStatistics() {
         System.out.println("=== ТАКТ " + tickCount + " ===");
         System.out.println("🌿 Растений: " + island.getTotalPlants());
+
         System.out.println("🐺 Волков: " + island.getAnimalCount(island.animals.predators.Wolf.class));
         System.out.println("🐍 Удавов: " + island.getAnimalCount(island.animals.predators.Boa.class));
         System.out.println("🦊 Лис: " + island.getAnimalCount(island.animals.predators.Fox.class));
         System.out.println("🐻 Медведей: " + island.getAnimalCount(island.animals.predators.Bear.class));
         System.out.println("🦅 Орлов: " + island.getAnimalCount(island.animals.predators.Eagle.class));
 
-        System.out.println("🐇 Кроликов: " + island.getAnimalCount(island.animals.herbivores.Rabbit.class));
+        System.out.println("🐎 Лошадей: " + island.getAnimalCount(island.animals.herbivores.Horse.class));
         System.out.println("🦌 Оленей: " + island.getAnimalCount(island.animals.herbivores.Deer.class));
-        System.out.println("... и других видов.");
+        System.out.println("🐇 Кроликов: " + island.getAnimalCount(island.animals.herbivores.Rabbit.class));
+        System.out.println("🐁 Мышей: " + island.getAnimalCount(island.animals.herbivores.Mouse.class));
+        System.out.println("🐐 Коз: " + island.getAnimalCount(island.animals.herbivores.Goat.class));
+        System.out.println("🐑 Овец: " + island.getAnimalCount(island.animals.herbivores.Sheep.class));
+        System.out.println("🐗 Кабанов: " + island.getAnimalCount(island.animals.herbivores.Boar.class));
+        System.out.println("🐃 Буйволов: " + island.getAnimalCount(island.animals.herbivores.Buffalo.class));
+        System.out.println("🦆 Уток: " + island.getAnimalCount(island.animals.herbivores.Duck.class));
+        System.out.println("🐛 Гусениц: " + island.getAnimalCount(island.animals.herbivores.Caterpillar.class));
+
         System.out.println("🧍 Всего животных: " + island.getTotalAnimals());
         System.out.println();
     }
