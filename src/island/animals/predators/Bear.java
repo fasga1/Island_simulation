@@ -32,8 +32,4 @@ public class Bear extends Predator {
         if (other instanceof Duck) return 10;
         return 0;
     }
-
-    @Override public void eat() {}
-    @Override public void reproduce() {}
-    @Override public void move() {}
 }

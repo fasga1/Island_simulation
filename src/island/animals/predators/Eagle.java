@@ -24,8 +24,4 @@ public class Eagle extends Predator {
         if (other instanceof Duck) return 80;
         return 0;
     }
-
-    @Override public void eat() {}
-    @Override public void reproduce() {}
-    @Override public void move() {}
 }
