@@ -40,11 +40,7 @@ public abstract class Animal implements Cloneable {
         this.y = y;
     }
 
-    public double getWeight() { return weight; }
     public int getMaxOnCell() { return maxOnCell; }
-    public int getSpeed() { return speed; }
-    public double getFoodRequirement() { return foodRequirement; }
-    public String getEmoji() { return emoji; }
     public int getX() { return x; }
     public int getY() { return y; }
     public Island getIsland() { return island; }
@@ -58,7 +54,7 @@ public abstract class Animal implements Cloneable {
 
     public void move() {
         if (speed <= 0) {
-            return; // например, гусеница
+            return;
         }
 
         int[] newCoords = island.getRandomNeighborCoords(x, y, speed);

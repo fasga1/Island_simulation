@@ -11,7 +11,7 @@ public class SimulationEngine {
     private final Island island;
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private final ExecutorService workerPool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-    private final int TICK_DELAY_MS = 1000; // 1 секунда на такт
+    private final int TICK_DELAY_MS = 1000;
     private final int MAX_TICKS = 1000;
     private volatile int tickCount = 0;
     private volatile boolean running = true;

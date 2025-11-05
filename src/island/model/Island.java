@@ -63,16 +63,6 @@ public class Island {
         return cells[y][x];
     }
 
-    public Cell getRandomCell() {
-        int x = random.nextInt(WIDTH);
-        int y = random.nextInt(HEIGHT);
-        return cells[y][x];
-    }
-
-    public Cell getNeighbor(int x, int y, int dx, int dy) {
-        return getCell(x + dx, y + dy);
-    }
-
     public int[] getRandomNeighborCoords(int x, int y, int maxDistance) {
         if (maxDistance <= 0) {
             return new int[]{x, y};
@@ -116,8 +106,4 @@ public class Island {
         return java.util.stream.Stream.of(cells)
                 .flatMap(java.util.stream.Stream::of);
     }
-
-    public int getWidth() { return WIDTH; }
-    public int getHeight() { return HEIGHT; }
-    public Cell[][] getCells() { return cells; }
 }
