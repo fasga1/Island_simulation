@@ -2,7 +2,6 @@ package island.entities;
 
 import island.model.Island;
 import island.model.Cell;
-
 import java.util.List;
 import java.util.stream.Collectors;
 

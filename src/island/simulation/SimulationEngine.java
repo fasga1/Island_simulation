@@ -1,13 +1,10 @@
 package island.simulation;
 
 import island.model.Island;
-import island.model.Cell;
 import island.entities.Animal;
-
 import java.util.concurrent.*;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 public class SimulationEngine {

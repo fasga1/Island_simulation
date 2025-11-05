@@ -4,7 +4,6 @@ import island.model.Island;
 import island.model.Cell;
 import island.animals.herbivores.Caterpillar;
 import island.animals.herbivores.Mouse;
-
 import java.util.List;
 
 public abstract class Herbivore extends Animal {

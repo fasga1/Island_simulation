@@ -1,7 +1,6 @@
 package island.animals.predators;
 
 import island.animals.herbivores.*;
-import island.animals.predators.Fox;
 import island.entities.Animal;
 import island.entities.Predator;
 import island.model.Island;

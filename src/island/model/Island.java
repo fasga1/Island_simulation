@@ -3,8 +3,6 @@ package island.model;
 import island.animals.herbivores.*;
 import island.animals.predators.*;
 import island.entities.Animal;
-
-import java.util.function.BiFunction;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Island {

@@ -1,9 +1,7 @@
 package island.entities;
 
 import island.model.Island;
-
 import java.util.concurrent.ThreadLocalRandom;
-
 import island.model.Cell;
 
 public abstract class Animal implements Cloneable {

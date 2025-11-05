@@ -2,7 +2,6 @@ package island.model;
 
 import island.entities.Animal;
 import island.entities.Plant;
-
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.Map;

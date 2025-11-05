@@ -3,8 +3,6 @@ package island.animals.herbivores;
 import island.entities.Animal;
 import island.entities.Herbivore;
 import island.model.Island;
-import island.animals.herbivores.Mouse;
-import island.animals.herbivores.Caterpillar;
 
 public class Boar extends Herbivore {
     public Boar(Island island, int x, int y) {
